@@ -14,7 +14,7 @@
     }
   },
   {
-    "DisplayName": "Status (types_1)_1",
+    "DisplayName": "Status (types_1)",
     "Name": "cr977_types_statecode",
     "OptionSetInfoNameMapping": {
       "0": "Active",
@@ -34,7 +34,7 @@
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Status Reason (types_1)_1",
+    "DisplayName": "Status Reason (types_1)",
     "Name": "cr977_types_statuscode",
     "OptionSetInfoNameMapping": {
       "1": "Active",

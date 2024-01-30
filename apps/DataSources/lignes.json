@@ -14,7 +14,7 @@
     }
   },
   {
-    "DisplayName": "Status (lignes)_1",
+    "DisplayName": "Status (lignes)",
     "Name": "cr977_ligne_statecode",
     "OptionSetInfoNameMapping": {
       "0": "Active",
@@ -34,7 +34,7 @@
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Status Reason (lignes)_1",
+    "DisplayName": "Status Reason (lignes)",
     "Name": "cr977_ligne_statuscode",
     "OptionSetInfoNameMapping": {
       "1": "Active",
