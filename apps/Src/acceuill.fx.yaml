@@ -1,0 +1,122 @@
+acceuill As screen:
+    BackgroundImage: ='Blue Abstract Corporate YouTube Thumbnail (12)'
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+
+    Label11 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(102, 174, 229, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.Georgia
+        Height: =68
+        Size: =45
+        Text: ="Welcome"
+        Width: =258
+        X: =558
+        Y: =36
+        ZIndex: =1
+
+    Label12 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(0, 84, 148, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.Georgia
+        Height: =96
+        Size: =30
+        Text: =Text(Now(),"[$-en-GB]dddd, dd mmm yyyy")
+        Width: =554
+        X: =495
+        Y: =87
+        ZIndex: =2
+
+    Button5 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        DisabledFill: =RGBA(242, 242, 241, 0)
+        Fill: =RGBA(0, 155, 217, 1)
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Height: =65
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(16, 110, 190, 1)
+        OnSelect: =Navigate(calendar)
+        PressedBorderColor: =RGBA(0, 69, 120, 1)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(16, 110, 190, 1)
+        RadiusBottomLeft: =30
+        RadiusBottomRight: =30
+        RadiusTopLeft: =30
+        RadiusTopRight: =30
+        Size: =20
+        Text: ="Calendar"
+        Width: =186
+        X: =202
+        Y: =565
+        ZIndex: =4
+
+    Button5_1 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        DisabledFill: =RGBA(242, 242, 241, 0)
+        Fill: =RGBA(0, 161, 224, 1)
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Height: =65
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(16, 110, 190, 1)
+        OnSelect: =Navigate(timesheetsaved)
+        PressedBorderColor: =RGBA(0, 69, 120, 1)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(16, 110, 190, 1)
+        RadiusBottomLeft: =30
+        RadiusBottomRight: =30
+        RadiusTopLeft: =30
+        RadiusTopRight: =30
+        Size: =20
+        Text: ="Team's timesheets"
+        Width: =186
+        X: =1021
+        Y: =565
+        ZIndex: =5
+
+    Button5_2 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        DisabledFill: =RGBA(242, 242, 241, 0)
+        Fill: =RGBA(0, 159, 222, 1)
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Height: =65
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(16, 110, 190, 1)
+        OnSelect: =Navigate(newtimesheet);
+        PressedBorderColor: =RGBA(0, 69, 120, 1)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(16, 110, 190, 1)
+        RadiusBottomLeft: =30
+        RadiusBottomRight: =30
+        RadiusTopLeft: =30
+        RadiusTopRight: =30
+        Size: =20
+        Text: ="new timesheet"
+        Width: =186
+        X: =609
+        Y: =565
+        ZIndex: =6
+

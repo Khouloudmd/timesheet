@@ -1,0 +1,155 @@
+login As screen:
+    BackgroundImage: ='Blue Abstract Corporate YouTube Thumbnail (9)'
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+
+    Rectangle2 As rectangle:
+        BorderColor: =RGBA(113, 111, 110, 1)
+        BorderStyle: =BorderStyle.Dashed
+        BorderThickness: =5
+        DisabledFill: =RGBA(161, 159, 157, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =590
+        HoverFill: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =530
+        X: =396
+        Y: =114
+        ZIndex: =14
+
+    Label4_2 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(0, 120, 212, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        Fill: =RGBA(255, 255, 255, 0.02)
+        FocusedBorderThickness: =4
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Bold
+        Height: =86
+        Size: =35
+        Text: ="User Log in"
+        Width: =292
+        X: =512
+        Y: =138
+        ZIndex: =15
+
+    txtuser As text:
+        BorderColor: =RGBA(0, 120, 212, 1)
+        BorderThickness: =5
+        Color: =RGBA(50, 49, 48, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        DisabledFill: =RGBA(242, 242, 241, 0)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =78
+        HintText: ="username"
+        HoverBorderColor: =RGBA(0, 69, 120, 1)
+        HoverColor: =RGBA(50, 49, 48, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        PressedBorderColor: =RGBA(0, 120, 212, 1)
+        PressedColor: =RGBA(50, 49, 48, 1)
+        PressedFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Size: =20
+        Width: =451
+        X: =432
+        Y: =260
+        ZIndex: =16
+
+    txtpass As text:
+        BorderColor: =RGBA(0, 120, 212, 1)
+        BorderThickness: =5
+        Color: =RGBA(50, 49, 48, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        DisabledFill: =RGBA(242, 242, 241, 0)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =78
+        HintText: ="password"
+        HoverBorderColor: =RGBA(0, 69, 120, 1)
+        HoverColor: =RGBA(50, 49, 48, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        Mode: =TextMode.Password
+        PressedBorderColor: =RGBA(0, 120, 212, 1)
+        PressedColor: =RGBA(50, 49, 48, 1)
+        PressedFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Size: =20
+        Width: =448
+        X: =435
+        Y: =401
+        ZIndex: =17
+
+    Button2_2 As button:
+        BorderColor: =RGBA(99, 139, 44, 1)
+        BorderThickness: =5
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        DisabledFill: =RGBA(242, 242, 241, 0)
+        DisplayMode: =If(txtuser.Text="" Or txtpass.Text="",DisplayMode.Disabled,DisplayMode.Edit)
+        Fill: =RGBA(141, 198, 63, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =64
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(187, 221, 140, 1)
+        OnSelect: |
+            =If(LookUp(identifications,firstname=txtuser.Text,password=txtpass.Text),Navigate(acceuill),Notify("incorrect unsername or password",NotificationType.Error)& Reset(txtuser)& Reset(txtpass))
+        PressedBorderColor: =RGBA(0, 69, 120, 1)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(204, 228, 246, 1)
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Size: =25
+        Text: ="log in"
+        Width: =361
+        X: =477
+        Y: =520
+        ZIndex: =18
+
+    Button3_2 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        DisabledFill: =RGBA(242, 242, 241, 0)
+        Fill: =RGBA(0, 120, 212, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =46
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(16, 110, 190, 1)
+        OnSelect: |
+            =Navigate(Signin, ScreenTransition.Cover)
+        PressedBorderColor: =RGBA(0, 69, 120, 1)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(16, 110, 190, 1)
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Size: =20
+        Text: ="Sign up"
+        Width: =222
+        X: =545
+        Y: =618
+        ZIndex: =19
+

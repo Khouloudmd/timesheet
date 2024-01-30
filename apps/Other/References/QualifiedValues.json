@@ -1,0 +1,64 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_cr977_newtable_forms",
+      "Namespace": "identifications (Forms)",
+      "Values": {
+        "Information": "a4dcf776-ae86-4e2d-9864-c490d92f8507"
+      }
+    },
+    {
+      "Kind": "default.cds_cr977_newtable1_forms",
+      "Namespace": "New tables (Forms)",
+      "Values": {
+        "Information": "b68b531d-5a12-46fa-9b43-e05b82d2b50c"
+      }
+    },
+    {
+      "Kind": "default.cds_cr977_types_forms",
+      "Namespace": "types_1 (Forms)",
+      "Values": {
+        "Information": "20ef56f7-43b0-4413-8f4f-b786e1f5004f"
+      }
+    },
+    {
+      "Kind": "default.cds_cr977_ligne_forms",
+      "Namespace": "lignes (Forms)",
+      "Values": {
+        "Information": "434d3684-67b0-487f-895b-9edabd6beb09"
+      }
+    },
+    {
+      "Kind": "default.cds_cr977_project_forms",
+      "Namespace": "projects (Forms)",
+      "Values": {
+        "Information": "1a81336c-383f-43a8-bdb1-d4870acf1e8f"
+      }
+    },
+    {
+      "Kind": "default.cds_cr977_employers_forms",
+      "Namespace": "employers (Forms)",
+      "Values": {
+        "Information": "9c02edfa-c0a4-4da1-a836-6ee3991af19b"
+      }
+    },
+    {
+      "Kind": "default.cds_cr977_line_forms",
+      "Namespace": "lines (Forms)",
+      "Values": {
+        "Information": "006c9d1b-41da-461c-b83b-e2826eca8047"
+      }
+    },
+    {
+      "Kind": "default.cds_systemuser_forms",
+      "Namespace": "Users (Forms)",
+      "Values": {
+        "Application User": "d26924ef-4d80-46f7-ab1d-e6ae80a54ce8",
+        "Information": "094fb08a-77bb-49e0-b7ea-8dbddfd01294",
+        "User": "c2cd9e55-d4b4-4b55-9951-16ead79643e5",
+        "User form – Business": "c2413504-7eb2-4c59-a087-95d819866114",
+        "User Hierarchy Tile Form": "c68d6c09-d7a7-4959-8d0f-44b8cff9b452"
+      }
+    }
+  ]
+}

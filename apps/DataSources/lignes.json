@@ -1,0 +1,99 @@
+[
+  {
+    "DisplayName": "lignes (Views)",
+    "Name": "_cr977_ligne_views",
+    "RelatedEntityName": "lignes",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "7e1704dc-0cc4-4739-bc93-6e1a7906ce05": "ligne Advanced Find View",
+      "844fd2df-b3eb-46ca-b935-a83fbcda8428": "ligne Associated View",
+      "a410f12b-fb93-41d0-94a0-208a62f73ded": "Inactive lignes",
+      "dad487b7-fb4c-4bf1-abba-9e6eef6325d3": "Active lignes",
+      "f2bb262b-8eae-43de-88a4-9b5b6317dd55": "ligne Lookup View"
+    }
+  },
+  {
+    "DisplayName": "Status (lignes)_1",
+    "Name": "cr977_ligne_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "lignes"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "lignes",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (lignes)_1",
+    "Name": "cr977_ligne_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "lignes"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "lignes",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr977_lignes",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr977_ligne",
+    "MaxGetRowsCount": 500,
+    "Name": "lignes",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr977_datedeprojet": "datedeprojet",
+      "cr977_description": "description",
+      "cr977_employer": "employer",
+      "cr977_ligne_AsyncOperations": "System Jobs",
+      "cr977_ligne_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr977_ligne_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr977_ligne_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr977_ligne_ProcessSession": "Process Sessions",
+      "cr977_ligne_SyncErrors": "Sync Errors",
+      "cr977_ligneid": "ligne",
+      "cr977_nomdeprojet": "nomdeprojet",
+      "cr977_type": "type",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "lignes",
+    "Type": "NativeCDSDataSourceInfo"
+  }
+]

@@ -1,0 +1,349 @@
+newtimesheet As screen:
+    BackgroundImage: ='Blue Abstract Corporate YouTube Thumbnail (24)'
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+
+    Label1 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(0, 108, 191, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Height: =102
+        Size: =30
+        Text: ="NEW TIMESHEET"
+        Width: =412
+        X: =489
+        Y: =39
+        ZIndex: =1
+
+    Icon1 As icon.Home:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(92, 91, 90, 1)
+        DisabledBorderColor: =RGBA(245, 245, 245, 1)
+        DisabledColor: =RGBA(225, 223, 221, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =72
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(16, 110, 190, 1)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.Home
+        OnSelect: =Navigate(acceuill);
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =RGBA(16, 110, 190, 1)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =90
+        X: =1245
+        Y: =18
+        ZIndex: =14
+
+    Rectangle7 As rectangle:
+        BorderColor: =RGBA(161, 159, 157, 1)
+        BorderStyle: =BorderStyle.Dashed
+        BorderThickness: =9
+        DisabledFill: =RGBA(161, 159, 157, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =604
+        HoverFill: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =1122
+        X: =123
+        Y: =141
+        ZIndex: =15
+
+    Label2 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(50, 49, 48, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Bold
+        Height: =45
+        Size: =25
+        Text: |-
+            ="Employer:"
+        Width: =245
+        X: =189
+        Y: =175
+        ZIndex: =16
+
+    Label2_1 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(50, 49, 48, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Bold
+        Height: =72
+        Size: =25
+        Text: |-
+            ="nom de projet:"
+        Width: =420
+        X: =716
+        Y: =165
+        ZIndex: =17
+
+    Label2_2 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(50, 49, 48, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Bold
+        Height: =60
+        Size: =25
+        Text: |-
+            ="date de projet:"
+        Width: =367
+        X: =189
+        Y: =483
+        ZIndex: =18
+
+    Label2_3 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(50, 49, 48, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Bold
+        Height: =60
+        Size: =25
+        Text: |-
+            ="Types:"
+        Width: =299
+        X: =184
+        Y: =326
+        ZIndex: =19
+
+    Label2_4 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(50, 49, 48, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Bold
+        Height: =72
+        Size: =25
+        Text: |-
+            ="Description:"
+        Width: =270
+        X: =716
+        Y: =386
+        ZIndex: =20
+
+    employer As dropdown:
+        BorderColor: =RGBA(245, 245, 245, 1)
+        ChevronBackground: =RGBA(245, 245, 245, 1)
+        ChevronDisabledBackground: =RGBA(242, 242, 241, 0)
+        ChevronDisabledFill: =RGBA(161, 159, 157, 1)
+        ChevronFill: =RGBA(50, 49, 48, 1)
+        ChevronHoverBackground: =RGBA(245, 245, 245, 1)
+        ChevronHoverFill: =RGBA(50, 49, 48, 1)
+        Color: =RGBA(50, 49, 48, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        DisabledFill: =RGBA(242, 242, 241, 0)
+        Fill: =RGBA(204, 228, 246, 1)
+        Font: =Font.'Segoe UI'
+        Height: =66
+        HoverBorderColor: =RGBA(16, 110, 190, 1)
+        HoverColor: =RGBA(50, 49, 48, 1)
+        HoverFill: =RGBA(245, 245, 245, 1)
+        Items: =Distinct(identifications,firstname)
+        PaddingBottom: =5
+        PaddingLeft: =12
+        PaddingRight: =5
+        PaddingTop: =5
+        PressedBorderColor: =RGBA(16, 110, 190, 1)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(0, 120, 212, 1)
+        SelectionColor: =RGBA(50, 49, 48, 1)
+        SelectionFill: =RGBA(0, 120, 212, 1)
+        Size: =13
+        Width: =398
+        X: =189
+        Y: =253
+        ZIndex: =21
+
+    nomdeprojet As text:
+        Align: =Align.Center
+        BorderColor: =RGBA(245, 245, 245, 1)
+        BorderThickness: =2
+        Color: =RGBA(50, 49, 48, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(204, 228, 246, 1)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        DisabledFill: =RGBA(242, 242, 241, 0)
+        Fill: =RGBA(204, 228, 246, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =79
+        HintText: ="nom de projet"
+        HoverBorderColor: =RGBA(16, 110, 190, 1)
+        HoverColor: =RGBA(50, 49, 48, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        PressedBorderColor: =RGBA(0, 120, 212, 1)
+        PressedColor: =RGBA(50, 49, 48, 1)
+        PressedFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Size: =13
+        Width: =425
+        X: =716
+        Y: =266
+        ZIndex: =22
+
+    datedeprojet As datepicker:
+        BorderColor: =RGBA(245, 245, 245, 1)
+        CalendarHeaderFill: =RGBA(16, 110, 190, 1)
+        Color: =RGBA(50, 49, 48, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        DisabledFill: =RGBA(242, 242, 241, 0)
+        Fill: =RGBA(204, 228, 246, 1)
+        Font: =Font.'Segoe UI'
+        Height: =61
+        HoverDateFill: =RGBA(184, 187, 184, 1)
+        IconBackground: =RGBA(0, 120, 212, 1)
+        PaddingTop: =5
+        SelectedDateFill: =RGBA(0, 120, 212, 1)
+        Size: =13
+        Width: =397
+        X: =184
+        Y: =543
+        ZIndex: =23
+
+    description As text:
+        BorderColor: =RGBA(245, 245, 245, 1)
+        BorderThickness: =2
+        Color: =RGBA(50, 49, 48, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        DisabledFill: =RGBA(242, 242, 241, 0)
+        Fill: =RGBA(204, 228, 246, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =151
+        HintText: ="description de projet"
+        HoverBorderColor: =RGBA(16, 110, 190, 1)
+        HoverColor: =RGBA(50, 49, 48, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        PressedBorderColor: =RGBA(0, 120, 212, 1)
+        PressedColor: =RGBA(50, 49, 48, 1)
+        PressedFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Size: =13
+        Width: =479
+        X: =705
+        Y: =458
+        ZIndex: =24
+
+    Button2 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        DisabledFill: =RGBA(242, 242, 241, 0)
+        Fill: =RGBA(127, 178, 57, 1)
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Bold
+        Height: =48
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(16, 110, 190, 1)
+        OnSelect: |-
+            =Collect(
+              lignes,
+              {
+                employer: employer.SelectedText.Value,
+                type: types.SelectedText.Value,
+                datedeprojet: datedeprojet.SelectedDate,
+                nomdeprojet: nomdeprojet.Text,
+                description: description.Text
+              }
+            );
+            
+            
+            Reset(employer);
+            Reset(types);
+            Reset(datedeprojet);
+            Reset(nomdeprojet);
+            Reset(description);
+            
+            
+            Navigate(calendar);
+        PressedBorderColor: =RGBA(0, 69, 120, 1)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(16, 110, 190, 1)
+        RadiusBottomLeft: =25
+        RadiusBottomRight: =25
+        RadiusTopLeft: =25
+        RadiusTopRight: =25
+        Size: =17
+        Text: ="submit"
+        Width: =334
+        X: =511
+        Y: =671
+        ZIndex: =25
+
+    types As dropdown:
+        BorderColor: =RGBA(245, 245, 245, 1)
+        ChevronBackground: =RGBA(245, 245, 245, 1)
+        ChevronDisabledBackground: =RGBA(242, 242, 241, 0)
+        ChevronDisabledFill: =RGBA(161, 159, 157, 1)
+        ChevronFill: =RGBA(50, 49, 48, 1)
+        ChevronHoverBackground: =RGBA(245, 245, 245, 1)
+        ChevronHoverFill: =RGBA(50, 49, 48, 1)
+        Color: =RGBA(50, 49, 48, 1)
+        Default: ="2"
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        DisabledFill: =RGBA(242, 242, 241, 0)
+        Fill: =RGBA(204, 228, 246, 1)
+        Font: =Font.'Segoe UI'
+        Height: =66
+        HoverBorderColor: =RGBA(16, 110, 190, 1)
+        HoverColor: =RGBA(50, 49, 48, 1)
+        HoverFill: =RGBA(245, 245, 245, 1)
+        Items: =types_1
+        PaddingBottom: =5
+        PaddingLeft: =12
+        PaddingRight: =5
+        PaddingTop: =5
+        PressedBorderColor: =RGBA(16, 110, 190, 1)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(0, 120, 212, 1)
+        SelectionColor: =RGBA(50, 49, 48, 1)
+        SelectionFill: =RGBA(0, 120, 212, 1)
+        Size: =13
+        Width: =397
+        X: =184
+        Y: =403
+        ZIndex: =26
+

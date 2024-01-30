@@ -1,0 +1,33 @@
+pagedegarde As screen:
+    BackgroundImage: ='Blue Abstract Corporate YouTube Thumbnail (8)'
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+
+    Button1 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =5
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(242, 242, 241, 0)
+        Fill: =RGBA(255, 140, 0, 1)
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Height: =83
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(141, 198, 63, 1)
+        OnSelect: =Navigate(login)
+        PressedBorderColor: =RGBA(141, 198, 63, 1)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(141, 198, 63, 1)
+        RadiusBottomLeft: =60
+        RadiusBottomRight: =60
+        RadiusTopLeft: =60
+        RadiusTopRight: =60
+        Size: =30
+        Text: ="start"
+        Width: =326
+        X: =507
+        Y: =519
+        ZIndex: =10
+

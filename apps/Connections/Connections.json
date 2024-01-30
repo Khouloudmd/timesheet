@@ -1,0 +1,16 @@
+{
+  "00cc8de3-4337-4e21-bc5f-8e443d22fa2d": {
+    "connectionRef": {
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1669/1.0.1669.3522/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365"
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Outlook"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "00cc8de3-4337-4e21-bc5f-8e443d22fa2d"
+  }
+}

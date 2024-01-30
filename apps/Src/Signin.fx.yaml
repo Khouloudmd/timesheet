@@ -1,0 +1,317 @@
+Signin As screen:
+    BackgroundImage: ='Blue Abstract Corporate YouTube Thumbnail (9)'
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+
+    Rectangle1 As rectangle:
+        BorderColor: =RGBA(145, 143, 141, 1)
+        BorderStyle: =BorderStyle.Dashed
+        BorderThickness: =5
+        DisabledFill: =RGBA(161, 159, 157, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =578
+        HoverFill: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =812
+        X: =279
+        Y: =135
+        ZIndex: =1
+
+    Label5 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(0, 120, 212, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Bold
+        Height: =86
+        Size: =40
+        Text: ="SIGIN UP"
+        Width: =480
+        X: =445
+        Y: =158
+        ZIndex: =2
+
+    Label6 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(0, 69, 120, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =98
+        Size: =15
+        Text: =" . FIRST NAME"
+        Width: =362
+        X: =324
+        Y: =215
+        ZIndex: =3
+
+    firstname As text:
+        BorderColor: =RGBA(0, 69, 120, 1)
+        BorderThickness: =5
+        Color: =RGBA(0, 69, 120, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        DisabledFill: =RGBA(242, 242, 241, 0)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =44
+        HintText: ="FIRST NAME"
+        HoverBorderColor: =RGBA(16, 110, 190, 1)
+        HoverColor: =RGBA(50, 49, 48, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        PressedBorderColor: =RGBA(0, 120, 212, 1)
+        PressedColor: =RGBA(50, 49, 48, 1)
+        PressedFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Size: =13
+        X: =324
+        Y: =282
+        ZIndex: =4
+
+    lastname As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(0, 69, 120, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Size: =15
+        Text: =". LAST NAME"
+        X: =732
+        Y: =244
+        ZIndex: =5
+
+    TextInput2 As text:
+        BorderColor: =RGBA(0, 69, 120, 1)
+        BorderThickness: =5
+        Color: =RGBA(50, 49, 48, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        DisabledFill: =RGBA(242, 242, 241, 0)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        HintText: ="LAST NAME"
+        HoverBorderColor: =RGBA(16, 110, 190, 1)
+        HoverColor: =RGBA(50, 49, 48, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        PressedBorderColor: =RGBA(0, 120, 212, 1)
+        PressedColor: =RGBA(50, 49, 48, 1)
+        PressedFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Size: =13
+        X: =732
+        Y: =286
+        ZIndex: =6
+
+    dateofbirth As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(0, 69, 120, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Size: =15
+        Text: =".DATE OF  BIRTH"
+        Width: =248
+        X: =324
+        Y: =358
+        ZIndex: =7
+
+    DatePicker1 As datepicker:
+        BorderColor: =RGBA(0, 69, 120, 1)
+        BorderThickness: =5
+        CalendarHeaderFill: =RGBA(16, 110, 190, 1)
+        Color: =RGBA(50, 49, 48, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        DisabledFill: =RGBA(242, 242, 241, 0)
+        Font: =Font.'Segoe UI'
+        HoverDateFill: =RGBA(184, 187, 184, 1)
+        IconBackground: =RGBA(0, 120, 212, 1)
+        PaddingTop: =5
+        SelectedDateFill: =RGBA(0, 120, 212, 1)
+        Size: =13
+        X: =324
+        Y: =414
+        ZIndex: =8
+
+    email As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(0, 69, 120, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =44
+        Size: =15
+        Text: =".EMAIL "
+        X: =740
+        Y: =358
+        ZIndex: =9
+
+    Icon2 As icon.Mail:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        Color: =RGBA(0, 120, 212, 1)
+        DisabledBorderColor: =RGBA(245, 245, 245, 1)
+        DisabledColor: =RGBA(225, 223, 221, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =38
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(16, 110, 190, 1)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.Mail
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =RGBA(16, 110, 190, 1)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =48
+        X: =819
+        Y: =360
+        ZIndex: =10
+
+    TextInput3 As text:
+        BorderColor: =RGBA(0, 69, 120, 1)
+        BorderThickness: =5
+        Color: =RGBA(50, 49, 48, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        DisabledFill: =RGBA(242, 242, 241, 0)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        HintText: ="EMAIL"
+        HoverBorderColor: =RGBA(16, 110, 190, 1)
+        HoverColor: =RGBA(50, 49, 48, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        PressedBorderColor: =RGBA(0, 120, 212, 1)
+        PressedColor: =RGBA(50, 49, 48, 1)
+        PressedFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Size: =13
+        X: =732
+        Y: =414
+        ZIndex: =11
+
+    password As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(0, 69, 120, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =44
+        Size: =15
+        Text: =".PASSWORD"
+        Width: =248
+        X: =547
+        Y: =486
+        ZIndex: =12
+
+    TextInput4 As text:
+        BorderColor: =RGBA(0, 69, 120, 1)
+        BorderThickness: =5
+        Color: =RGBA(0, 69, 120, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        DisabledFill: =RGBA(242, 242, 241, 0)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        HintText: ="PASSWORD"
+        HoverBorderColor: =RGBA(16, 110, 190, 1)
+        HoverColor: =RGBA(50, 49, 48, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        Mode: =TextMode.Password
+        PressedBorderColor: =RGBA(0, 120, 212, 1)
+        PressedColor: =RGBA(50, 49, 48, 1)
+        PressedFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Size: =13
+        X: =547
+        Y: =530
+        ZIndex: =13
+
+    Button4 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        DisabledFill: =RGBA(242, 242, 241, 0)
+        Fill: =RGBA(0, 120, 212, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =52
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(141, 198, 63, 1)
+        OnSelect: |-
+            =Collect(
+              identifications,
+              {
+                firstname: firstname.Text,
+                lastname: TextInput2.Text,
+                dateofbirth: DatePicker1.SelectedDate,
+                email: TextInput3.Text,
+                password: TextInput4.Text
+              }
+            );
+            
+            
+            Reset(firstname);
+            Reset(TextInput2);
+            Reset(DatePicker1);
+            Reset(TextInput3);
+            Reset(TextInput4);
+            
+            
+            Navigate(login);
+        PressedBorderColor: =RGBA(0, 69, 120, 1)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(16, 110, 190, 1)
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Size: =15
+        Text: ="Sigin in "
+        Width: =188
+        X: =613
+        Y: =619
+        ZIndex: =14
+

@@ -1,0 +1,97 @@
+[
+  {
+    "DisplayName": "types_1 (Views)",
+    "Name": "_cr977_types_views",
+    "RelatedEntityName": "types_1",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "5a2b1177-66d5-4749-bc4b-43680b1c79d6": "types Associated View",
+      "6a478481-df38-4ad7-9832-2ca1c074fffe": "types Lookup View",
+      "a587e14a-c1e1-4a0b-a65d-33a5d90d0031": "types Advanced Find View",
+      "b30df5e6-585b-45cf-b9c5-7832cb058214": "Active types",
+      "b96c274d-c792-4946-b83b-743b5812d58c": "Inactive types"
+    }
+  },
+  {
+    "DisplayName": "Status (types_1)_1",
+    "Name": "cr977_types_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "types_1"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "types_1",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (types_1)_1",
+    "Name": "cr977_types_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "types_1"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "types_1",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr977_typeses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr977_types",
+    "MaxGetRowsCount": 500,
+    "Name": "types_1",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr977_type": "type",
+      "cr977_types_AsyncOperations": "System Jobs",
+      "cr977_types_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr977_types_DuplicateBaseRecord": "Duplicate Records (cr977_types_DuplicateBaseRecord)",
+      "cr977_types_DuplicateMatchingRecord": "Duplicate Records (cr977_types_DuplicateMatchingRecord)",
+      "cr977_types_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr977_types_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr977_types_ProcessSession": "Process Sessions",
+      "cr977_types_SyncErrors": "Sync Errors",
+      "cr977_typesid": "types",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "types_1",
+    "Type": "NativeCDSDataSourceInfo"
+  }
+]
